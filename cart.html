@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cart.css">
+	<script src="./js/bicicletas.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./js/cartService.js" defer></script>
+	<script src="./js/cart.js" defer></script>
+	<title>Carrito</title>
+</head>
+<body>
+  <header>
+		<nav>
+			<a href="./index.html"><img src="/Carrito-de-compras/img/bike-svgrepo-com.svg" alt="Logo" id="logo">
+				<p id="mater">MaterBikes</p></a>
+			<div>
+				<a href="#">Inicio</a>
+				<a href="index.html">Productos</a>
+				<a href="./cart.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige algunos productos</a></p>
+		<section id="cart-container">
+		</section>
+  <section id="totales">
+    <p>Total unidades: <span id="cantidad">0</span></p>
+    <p>Total precio: $<span id="precio">0</span></p>
+
+
+
+	
+    <button class="btn"> <a href="credit.html">Ir a pagar</a></button>
+    <button id="reiniciar">Borrar carrito</button>
+  </section>
+</main>
+	<footer>
+		<section class="botones">
+			<a href="https://www.instagram.com/duocucsanjoaquin" class="fa fa-instagram" id="ins"></a>
+			<a href="https://web.facebook.com/DuocUC.SanJoaquin" class="fa fa-facebook" id="fa"></a>
+			<a href="https://api.whatsapp.com/send/?phone=56936639565&text&type=phone_number&app_absent=0"
+				class="fa fa-whatsapp" id="what"></a>
+		</section>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/credit.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <section>
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Direccion de pago</h3>
+
+                <div class="inputBox">
+                    <span>Nombre completo :</span>
+                    <input type="text" required placeholder="Benjamin Perez">
+                </div>
+                <div class="inputBox">
+                    <span>Correo Electronico :</span>
+                    <input type="email" required placeholder="ejemplo@ejemplo.com">
+                </div>
+                <div class="inputBox">
+                    <span>Direccion :</span>
+                    <input type="text" required placeholder="pasaje 2010">
+                </div>
+                <div class="inputBox">
+                    <span>Ciudad :</span>
+                    <input type="text" required placeholder="santiago">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Estado :</span>
+                        <input type="text" required placeholder="Metropolitana">
+                    </div>
+                    <div class="inputBox">
+                        <span>Codigo postal :</span>
+                        <input type="text" required placeholder="123456">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Pago</h3>
+
+                <div class="inputBox">
+                    <span>Tarjetas de credito aceptadas :</span>
+                    <img src="img/iconos/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Nombre del titular :</span>
+                    <input type="text" required placeholder="Nicolas Perez">
+                </div>
+                <div class="inputBox">
+                    <span>Número de tarjeta :</span>
+                    <input type="number" required placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>fecha de caducidad :</span>
+                    <input type="text" required placeholder="Enero">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Expiracion :</span>
+                        <input type="number" required placeholder="2029">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" required placeholder="1234">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Proceder al pago" class="submit-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    </section>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="text-center modal-title fs-4 text-success" id="exampleModalLabel">¡Procesado con exito!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-center">Le hemos enviado un correo con los datos del pedido, ¡que lo disfrutes!</p>
+          <br>
+          <p class="text-bg-danger text-center"> codigo de referencia: 1a2k3k4jk#1023</p>
+          <p class="text-success text-center"> ¡Gracias por preferir materbikes!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
